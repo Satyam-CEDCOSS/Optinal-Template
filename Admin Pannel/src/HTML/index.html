@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__left">
+        <nav>
+          <h2>Admin Panel</h2>
+          <div class="box1"><a href="" class="a1">Optinal</a></div>
+          <div class="box1"><a href="" class="a1">Static Pages</a></div>
+          <div class="box1"><a href="" class="a1">Posts</a></div>
+          <div class="box1"><a href="" class="a1">Modules</a></div>
+          <div class="box1"><a href="" class="a1">Navigation Links</a></div>
+          <div class="box1"><a href="" class="a1">Mailing List</a></div>
+          <div class="box1 space"><a href="" class="a1">Themes</a></div>
+          <div class="box2"><a href="" class="a1">Logout</a></div>
+        </nav>
+      </div>
+      <div class="container__right">
+        <section>
+          <div class="section__box">
+            <h2>Navigation Links</h2>
+            <div class="section__table">
+              <table>
+                <tr>
+                  <th>URL</th>
+                  <th>Name</th>
+                  <th>Exit</th>
+                  <th>Move</th>
+                  <th>Visible</th>
+                  <th>Delete</th>
+                </tr>
+                <tr>
+                  <td>/</td>
+                  <td>Home</td>
+                  <td class="edit"><button>Exit</button></td>
+                  <td class="v">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>
+                      <b>v</b>
+                    </button>
+                  </td>
+                  <td class="visible"><button>Visible</button></td>
+                  <td class="x"><button>x</button></td>
+                </tr>
+                <tr>
+                  <td>/posts</td>
+                  <td>Posts</td>
+                  <td class="edit"><button>Exit</button></td>
+                  <td class="v">
+                    <button><b>^</b></button> &nbsp;&nbsp;&nbsp;&nbsp;<button>
+                      <b>v</b>
+                    </button>
+                  </td>
+                  <td class="visible"><button>Visible</button></td>
+                  <td class="x"><button>x</button></td>
+                </tr>
+                <tr>
+                  <td>/contact</td>
+                  <td>Contact</td>
+                  <td class="edit"><button>Exit</button></td>
+                  <td class="v">
+                    <button><b>^</b></button>
+                  </td>
+                  <td class="visible"><button>Visible</button></td>
+                  <td class="x"><button>x</button></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </section>
+        <aside>
+          <h2>Quick Links</h2>
+          <div class="aside__box">
+            <button class="aside__btn">Link Static Page</button>
+            <button class="aside__btn">Link Post</button>
+            <button class="aside__btn">Link Module</button>
+          </div>
+        </aside>
+        <article>
+          <h2>Add New Links</h2>
+          <div class="article__box">
+            <input type="text" placeholder="URL" class="pad" />
+            <input type="text" placeholder="Name" class="pad" />
+            <button class="pad">Add</button>
+          </div>
+        </article>
+        <footer>
+          <h2>Options</h2>
+          <div class="footer__box">
+            <label for="cars"><b>Navigatoion Link Spacer:</b></label>
+            <select name="cars" id="cars">
+              <option value="volvo">Wider Space</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <p>Set the spacing between the navigation links</p>
+          </div>
+          <div class="btn">
+            <button>Save</button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
